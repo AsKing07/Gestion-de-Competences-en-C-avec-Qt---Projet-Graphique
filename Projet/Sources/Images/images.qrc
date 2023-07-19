@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>competences1.jpeg</file>
+        <file>images.qrc</file>
+        <file>img_accueil.png</file>
+        <file>professionnel1.png</file>
+        <file>profil1.png</file>
+        <file>Propos1.jpeg</file>
+        <file>emp.png</file>
+        <file>employe.jpeg</file>
+        <file>ifri.png</file>
+    </qresource>
+</RCC>

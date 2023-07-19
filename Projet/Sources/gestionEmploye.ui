@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>gestionEmploye</class>
+ <widget class="QDialog" name="gestionEmploye">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/*background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(0, 255, 150, 255));*/</string>
+  </property>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>455</x>
+     <y>10</y>
+     <width>521</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>521</width>
+     <height>441</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>521</width>
+     <height>441</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 255, 255, 255));</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>431</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 255, 255, 255));</string>
+      </property>
+      <property name="text">
+       <string>AJOUTER UN EMPLOYE</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="nomLabel">
+        <property name="text">
+         <string>Identité:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="nomEmploye"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="nomDUtilisateurLabel">
+        <property name="text">
+         <string>Nom d'utilisateur</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="usernameEmploye"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="motDePasseLabel">
+        <property name="text">
+         <string>Mot de Passe</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="mdpNewEmp"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="AjouterEmploye">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>AJOUTER</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>431</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>METTRE A JOUR OU SUPPRIMER UN EMPLOYE</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QFormLayout" name="formLayout_2">
+      <item row="0" column="0">
+       <widget class="QLabel" name="employeLabel">
+        <property name="text">
+         <string>Employe:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QComboBox" name="comboBox">
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 255, 255, 255));
+background-color: rgb(255, 255, 255);
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 255, 255, 255));</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="nouvelleIdentitLabel">
+        <property name="text">
+         <string>Nouvelle identité</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="newIdentEmpMaj"/>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="newMdpEmpMaj"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="nouveauNomDUtilisateurLabel">
+        <property name="text">
+         <string>Nouveau nom d'utilisateur</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="newUsernameMaj"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="nouveauMotDePasseLabel">
+        <property name="text">
+         <string>Nouveau Mot de passe</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>METTRE A JOUR</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Supprimer">
+      <property name="text">
+       <string>SUPPRIMER</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="listerEmp">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>460</y>
+     <width>211</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Lister les Employés</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="menu">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>460</y>
+     <width>80</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Menu</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

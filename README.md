@@ -3,7 +3,7 @@ Ce dépôt GitHub contient un projet C++ de gestion de compétences en mode grap
 Il s'agit d'une application qt graphique de gestion de compétences. La version évolutive de la version console proposée précédemment 
 
 ## Images
-<img src="project-image5.png" alt="image" />
+<img src="project-img5.png" alt="image" />
 
 
 Voici le manuel d'utilisation pour compiler et utiliser l'application :

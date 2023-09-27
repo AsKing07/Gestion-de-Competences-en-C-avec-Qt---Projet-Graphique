@@ -1,9 +1,12 @@
 # Gestion-de-Competences-en-C---avec-Qt---Projet-Graphique
 Ce dépôt GitHub contient un projet C++ de gestion de compétences en mode graphique réalisé avec Qt. L'application permet de gérer les compétences d'une équipe en utilisant une base de données fournie en format .db.
 Il s'agit d'une application qt graphique de gestion de compétences. La version évolutive de la version console proposée précédemment 
+
+## Images
+<img src="project-image5.png" alt="image" />
+
+
 Voici le manuel d'utilisation pour compiler et utiliser l'application :
-
-
 ## Compilation sous Qt
 
 Pour compiler le projet, suivez les étapes ci-dessous :
